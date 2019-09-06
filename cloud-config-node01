@@ -1,6 +1,6 @@
 
 #cloud-config 
-hostname: rancher-node05
+hostname: rancher-node01
 
 ssh_authorized_keys:
   - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDCGyPUstyHFIHcAUi7UYjVW4QtikTtLf+eTXIJtAahgTczoCW1ZCjINwDOTqBT9F7Npdh7MrsxTLeQ7UASssvlMAHgdHo6pk7tzmvXor2NMF48ANH/j0R9HULYMjP6uyejxc7pFnGy+8z19I7RhlAaXPe6jvsveAOD/OAK+HBTUo9dsQE+JEKK0ljkUija4eTsXCtQrZ64pP+4gGKJJXdJv0yeBV/TR0doLNW+iJMk+BZhhjkN3Ttnu+PGwJFezFshmKg/asw3xl37lLIicsBMlt1MNAVmaOyHEjUMvP+ptV2jOxJkb5btu/sgLQSk/Sl/qMwfc/7AOphqvKjcoe5p neven@FUJIMINT
@@ -8,4 +8,4 @@ ssh_authorized_keys:
 rancher:
   # Enable ISCI for Storage Provisionners
   services_include:
-open-iscsi: true
+    open-iscsi: true
