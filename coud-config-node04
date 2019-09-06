@@ -8,4 +8,4 @@ ssh_authorized_keys:
 rancher:
   # Enable ISCI for Storage Provisionners
   services_include:
-open-iscsi: true
+    open-iscsi: true
